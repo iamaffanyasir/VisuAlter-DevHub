@@ -193,6 +193,58 @@
 @media (max-width: 768px) {
   .menu-toggle {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+  }
+
+  .menu-toggle span {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  .menu-toggle span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #00a8ff, #00ff88);
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+
+  .menu-toggle.active span:first-child {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  .menu-toggle.active span:last-child {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+
+  .menu-toggle:hover span::before {
+    opacity: 1;
+  }
+
+  .navbar.menu-open .menu-toggle span {
+    background: #fff;
   }
 
   .nav-menu {
@@ -216,7 +268,7 @@
   .nav-links {
     flex-direction: column;
     align-items: center;
-    gap: 2.5rem;
+    gap: 1rem;
   }
 
   .nav-links a {
@@ -236,11 +288,11 @@
 
   .nav-links div {
     font-size: 1.3rem;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .nav-links div::before {
-    bottom: -5px;
+    bottom: -3px;
     height: 3px;
   }
 }

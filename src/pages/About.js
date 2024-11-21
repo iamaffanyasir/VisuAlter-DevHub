@@ -102,45 +102,47 @@ const About = () => {
                 bio: 'Expert in full-stack development with 5+ years of experience in building scalable applications.',
                 skills: ['React', 'Node.js', 'Python', 'AWS'],
                 social: {
-                  linkedin: 'https://linkedin.com',
-                  github: 'https://github.com',
+                  linkedin: 'https://linkedin.com/in/mohammad-affan-yasir-6a1976179/',
+                  github: 'https://github.com/iamaffanyasir',
+                  twitter: 'https://x.com/wolverine1k999'
+                }
+              },
+              {
+                name: 'Faizeen Saba Naz',
+                role: 'Software Developer',
+                image: '/images/team2.jpg',
+                bio: 'Dedicated to ensuring client success and maintaining strong relationships.',
+                skills: ['Java', 'Python', 'SQL', 'SpringBoot'],
+                social: {
+                  linkedin: 'https://www.linkedin.com/in/faizeen-s-779012237/',
                   twitter: 'https://twitter.com'
                 }
+              
               },
               {
                 name: 'Saheb Alam',
                 role: 'Data Analyst and Marketing Expert',
-                image: '/images/team2.jpg',
+                image: '/images/team3.jpg',
                 bio: 'Specializes in data-driven marketing strategies and business analytics.',
                 skills: ['Data Analysis', 'Digital Marketing', 'SEO', 'Market Research'],
                 social: {
-                  linkedin: 'https://linkedin.com',
+                  linkedin: 'https://www.linkedin.com/in/saheb-alam-632712286/',
                   twitter: 'https://twitter.com'
                 }
               },
               {
                 name: 'Kabeer Rana',
                 role: 'Lead UI/UX Designer',
-                image: '/images/team3.jpg',
+                image: '/images/team4.jpg',
                 bio: 'Creative designer focused on crafting intuitive and engaging user experiences.',
                 skills: ['UI Design', 'UX Research', 'Prototyping', 'Design Systems'],
                 social: {
-                  linkedin: 'https://linkedin.com',
-                  dribbble: 'https://dribbble.com',
-                  behance: 'https://behance.net'
+                  linkedin: 'https://www.linkedin.com/in/kabrana1999/',
+                  dribbble: 'https://dribbble.com/kab1999',
+                  behance: 'https://www.behance.net/kabeerrana1'
                 }
               },
-              {
-                name: 'Aarzoo Nabi',
-                role: 'Client Relations Expert',
-                image: '/images/team4.jpg',
-                bio: 'Dedicated to ensuring client success and maintaining strong relationships.',
-                skills: ['Client Management', 'Project Planning', 'Communication', 'Strategy'],
-                social: {
-                  linkedin: 'https://linkedin.com',
-                  twitter: 'https://twitter.com'
-                }
-              }
+              
             ].map((member, index) => (
               <div key={index} className="team-card">
                 <div className="team-member-image">

@@ -111,6 +111,40 @@
   width: 100%;
 }
 
+.nav-links div {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
+  letter-spacing: 0.3px;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-links div::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #00a8ff, #00ff88);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-links div:hover,
+.nav-links div.active {
+  color: #fff;
+}
+
+.nav-links div:hover::before,
+.nav-links div.active::before {
+  width: 100%;
+}
+
 /* Menu Toggle Button */
 .menu-toggle {
   display: none;
@@ -196,6 +230,16 @@
   }
 
   .nav-links a::before {
+    bottom: -5px;
+    height: 3px;
+  }
+
+  .nav-links div {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+
+  .nav-links div::before {
     bottom: -5px;
     height: 3px;
   }

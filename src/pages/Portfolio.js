@@ -14,46 +14,46 @@ const Portfolio = () => {
       projects: [
         {
           id: 1,
-          title: "E-commerce Platform",
-          description: "A full-featured online shopping platform",
-          image: "/images/ecommerce.jpg",
+          title: "IERPS Inc.",
+          description: "An ERP Software Provider Company's Website",
+          image: "/images/ierps.jpg",
           category: "Web Development",
-          technologies: ["React", "Node.js", "MongoDB", "AWS"],
-          liveLink: "https://example.com"
+          technologies: ["JavaScript", "Node.js", "MongoDB", "TailwindCSS"],
+          liveLink: "http://ierpsinc.com/"
         },
         {
           id: 2,
-          title: "Social Media Dashboard",
-          description: "Analytics and management platform",
-          image: "/images/dashboard.jpg",
+          title: "SocialPulse",
+          description: "A Social Media App",
+          image: "/images/socialpulse.jpg",
           category: "Web Development",
-          technologies: ["Vue.js", "Firebase", "D3.js"],
-          liveLink: "https://example.com"
+          technologies: ["Next.js", "Appwrite", "MongoDB"],
+          liveLink: "https://socialpulsev3.vercel.app/sign-in"
         }
       ]
     },
     {
-      title: "Mobile Development",
-      description: "iOS and Android applications",
+      title: "Software Development",
+      description: "Management Softwares and Dashboards",
       image: "/images/mobile-dev.jpg",
       projects: [
         {
           id: 3,
-          title: "Fitness Tracking App",
-          description: "Health and workout monitoring app",
-          image: "/images/fitness-app.jpg",
-          category: "Mobile Development",
-          technologies: ["React Native", "Firebase", "Redux"],
-          liveLink: "https://example.com"
+          title: "VisualterCRM",
+          description: "A Client Relations MAnagement Software",
+          image: "/images/visualtercrm.jpg",
+          category: "Software Development",
+          technologies: ["React.Js", "Firebase", "Appwrite", "MaterialUI"],
+          liveLink: "https://visualtercrm.vercel.app"
         },
         {
           id: 4,
-          title: "Food Delivery App",
-          description: "On-demand food ordering platform",
-          image: "/images/food-app.jpg",
-          category: "Mobile Development",
-          technologies: ["Flutter", "Node.js", "MongoDB"],
-          liveLink: "https://example.com"
+          title: "Jazeera Cafe & Restaurant",
+          description: "Billing and Dashboarding",
+          image: "/images/jazeera.jpg",
+          category: "Software Development",
+          technologies: ["React.Js", "Node.js", "MongoDB"],
+          liveLink: "https://jazeera-rho.vercel.app"
         }
       ]
     },
@@ -66,19 +66,19 @@ const Portfolio = () => {
           id: 5,
           title: "Banking App Design",
           description: "Modern banking application interface",
-          image: "/images/bank-app.jpg",
+          image: "/images/banking.jpg",
           category: "UI/UX Design",
           technologies: ["Figma", "Adobe XD", "Prototyping"],
-          liveLink: "https://example.com"
+          liveLink: ""
         },
         {
           id: 6,
           title: "Travel Platform Design",
           description: "Travel booking platform interface",
-          image: "/images/travel-app.jpg",
+          image: "/images/travel.jpg",
           category: "UI/UX Design",
           technologies: ["Sketch", "InVision", "User Testing"],
-          liveLink: "https://example.com"
+          liveLink: ""
         }
       ]
     }

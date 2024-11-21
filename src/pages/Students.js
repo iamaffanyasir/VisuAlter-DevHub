@@ -8,7 +8,7 @@ const Students = () => {
     frontend: {
       basic: {
         title: "Basic Frontend",
-        price: "₹14,999",
+        price: "₹1,999",
         stack: ["HTML", "CSS", "JavaScript"],
         features: [
           "Static Website Projects",
@@ -21,7 +21,7 @@ const Students = () => {
       },
       advanced: {
         title: "Advanced Frontend",
-        price: "₹29,999",
+        price: "₹2,999",
         stack: ["React.js", "Next.js", "Tailwind CSS"],
         features: [
           "Dynamic Web Applications",
@@ -36,7 +36,7 @@ const Students = () => {
     backend: {
       basic: {
         title: "Basic Backend",
-        price: "₹19,999",
+        price: "₹2,999",
         stack: ["Node.js", "Express", "MongoDB"],
         features: [
           "REST API Development",
@@ -49,7 +49,7 @@ const Students = () => {
       },
       advanced: {
         title: "Advanced Backend",
-        price: "₹39,999",
+        price: "₹4,999",
         stack: ["Node.js", "NestJS", "PostgreSQL", "Redis"],
         features: [
           "Microservices Architecture",
@@ -64,7 +64,7 @@ const Students = () => {
     fullstack: {
       basic: {
         title: "Basic Fullstack",
-        price: "₹44,999",
+        price: "₹7,999",
         stack: ["MERN Stack", "Redux", "JWT"],
         features: [
           "Complete Web Application",
@@ -77,7 +77,7 @@ const Students = () => {
       },
       advanced: {
         title: "Advanced Fullstack",
-        price: "₹74,999",
+        price: "₹9,999",
         stack: ["Next.js", "NestJS", "PostgreSQL", "AWS"],
         features: [
           "Enterprise Architecture",
@@ -92,7 +92,7 @@ const Students = () => {
     mobile: {
       basic: {
         title: "Mobile App Basic",
-        price: "₹49,999",
+        price: "₹2,999",
         stack: ["React Native", "Firebase"],
         features: [
           "Cross-platform App",
@@ -105,7 +105,7 @@ const Students = () => {
       },
       advanced: {
         title: "Mobile App Pro",
-        price: "₹99,999",
+        price: "₹5,999",
         stack: ["React Native", "Node.js", "MongoDB", "AWS"],
         features: [
           "Custom Backend",

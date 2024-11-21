@@ -18,16 +18,16 @@ const Footer = () => {
               Transforming ideas into exceptional digital experiences. We craft innovative solutions for web, mobile, and software development.
             </p>
             <div className="social-links">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/visualter-devs-a52a662b8/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <a href="https://x.com/wolverine1k999" target="_blank" rel="noopener noreferrer" aria-label="X">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href="https://www.instagram.com/wevisualters/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/iamaffanyasir" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <i className="fab fa-github"></i>
               </a>
             </div>
@@ -72,15 +72,15 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <i className="fas fa-map-marker-alt"></i>
-                <p>123 Tech Street, Digital City<br />Innovation State, 12345</p>
+                <p>New Friends Colony<br />New Delhi, India</p>
               </div>
               <div className="contact-item">
                 <i className="fas fa-phone"></i>
-                <p>+1 (234) 567-8900<br />Mon-Fri, 9:00 AM - 6:00 PM</p>
+                <p>+91 - 7011188053<br />Mon - Fri, 9:00 AM - 6:00 PM</p>
               </div>
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
-                <p>info@visualter.com<br />support@visualter.com</p>
+                <p>visualter4dev.gmail.com<br />yasirmohammadaffan@gmail.com</p>
               </div>
             </div>
             <Link to="/contact" className="contact-btn">

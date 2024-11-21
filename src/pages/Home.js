@@ -105,7 +105,7 @@ const Home = () => {
                   <img src={`/images/project${project}.jpg`} alt={`Project ${project}`} />
                   <div className="project-overlay">
                     <div className="project-content">
-                      <h3>Project Title {project}</h3>
+                      <h3>Project {project}</h3>
                       <p>Web Development • UI/UX Design</p>
                       <Link to="/portfolio" className="project-link">
                         View Details

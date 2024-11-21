@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +21,11 @@ const Navbar = () => {
     setIsMenuOpen(false);
   }, [location]);
 
+  const handleNavigation = (path) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
+
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''} ${isMenuOpen ? 'menu-open' : ''}`}>
       <div className="navbar-container">
@@ -31,39 +37,25 @@ const Navbar = () => {
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <ul className="nav-links">
             <li>
-              <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
-                Home
-              </Link>
+              <div onClick={() => handleNavigation('/')}>Home</div>
             </li>
             <li>
-              <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
-                About
-              </Link>
+              <div onClick={() => handleNavigation('/about')}>About</div>
             </li>
             <li>
-              <Link to="/clientele" className={location.pathname === '/clientele' ? 'active' : ''}>
-                Clientele
-              </Link>
+              <div onClick={() => handleNavigation('/clientele')}>Clientele</div>
             </li>
             <li>
-              <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'active' : ''}>
-                Portfolio
-              </Link>
+              <div onClick={() => handleNavigation('/portfolio')}>Portfolio</div>
             </li>
             <li>
-              <Link to="/students" className={location.pathname === '/students' ? 'active' : ''}>
-                Students
-              </Link>
+              <div onClick={() => handleNavigation('/students')}>Students</div>
             </li>
             <li>
-              <Link to="/careers" className={location.pathname === '/careers' ? 'active' : ''}>
-                Careers
-              </Link>
+              <div onClick={() => handleNavigation('/careers')}>Careers</div>
             </li>
             <li>
-              <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
-                Contact Us
-              </Link>
+              <div onClick={() => handleNavigation('/contact')}>Contact Us</div>
             </li>
           </ul>
         </div>

@@ -25,7 +25,7 @@ const Clientele = () => {
             <p>We've worked with diverse clients across various industries</p>
           </div>
           <div className="clients-grid">
-            {[1, 2, 3, 4, 5, 6].map((client) => (
+            {[1, 2, 3, 4, 5, 6, 7, 8].map((client) => (
               <div key={client} className="client-card">
                 <div className="client-logo">
                   <img src={`/images/client${client}.png`} alt={`Client ${client}`} />

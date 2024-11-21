@@ -205,10 +205,10 @@ const Contact = () => {
           </div>
           <div className="social-links">
             {[
-              { platform: 'linkedin', icon: 'linkedin', url: 'https://linkedin.com' },
-              { platform: 'twitter', icon: 'twitter', url: 'https://twitter.com' },
-              { platform: 'instagram', icon: 'instagram', url: 'https://instagram.com' },
-              { platform: 'github', icon: 'github', url: 'https://github.com' }
+              { platform: 'linkedin', icon: 'linkedin', url: 'https://www.linkedin.com/in/visualter-devs-a52a662b8/' },
+              { platform: 'twitter', icon: 'twitter', url: 'https://x.com/wolverine1k999' },
+              { platform: 'instagram', icon: 'instagram', url: 'https://instagram.com/wevisualters' },
+              { platform: 'github', icon: 'github', url: 'https://github.com/iamaffanyasir' }
             ].map((social) => (
               <a
                 key={social.platform}

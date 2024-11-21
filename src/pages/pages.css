@@ -1,0 +1,35 @@
+.page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  min-height: calc(100vh - 200px);
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+.page h1 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 168, 255, 0.3);
+}
+
+.page p {
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
